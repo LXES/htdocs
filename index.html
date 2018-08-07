@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <title>NOVEL_proto</title>
     <style>
+      #grid{
+        border:5px solid pink;
+        display:grid;
+        grid-template-rows:1fr 1fr 1fr 1fr;
+      }
       body{
         background-image: url('src/typing.jpg');
         background-repeat: no-repeat;
@@ -18,9 +23,37 @@
     <h1>가람 - 서재</h1>
     <h2>서재에 들어가기 전 - 미완</h2>
     
-    <p>
-      <a href="onedaycat/bookcover.html">in my footprint</a>
-    </p>
+    <div id="grid">
+      <div>
+        책장
+      </div>
+      <div>
+        <div id="grid_for_art">
+          <div>
+            예술
+          </div>
+          <div>
+            문학
+          </div>
+          <div>
+            음악
+          </div>
+          <div>
+            미술
+          </div>
+        </div>
+      </div>
+      <div>
+        일기
+      </div>
+      <div>
+        작업물
+      </div>
+      
+      <p>
+        <a href="onedaycat/bookcover.html">in my footprint</a>
+      </p>
+    </div>
     <h2>게시판 - 할것</h2>
     <p>
       우선 진짜 게시판부터 만들것. 무엇을 만들것인지 적을 게시판
