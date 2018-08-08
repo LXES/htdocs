@@ -20,8 +20,14 @@
       #grid_for_art{
         border:5px solid red;
         display:grid;
-        grid-template-rows:1fr 1fr 1fr;
+        grid-template-rows:1fr 2fr;
         grid-template-columns:1fr 1fr 1fr;
+      }
+      #art { 
+        grid-column-start: 1; 
+        grid-column-end: 2; 
+        grid-row-start: 1; 
+        grid-row-end: 4; 
       }
     </style>
   </head>
@@ -35,16 +41,16 @@
       </div>
       <div>
         <div id="grid_for_art">
-          <div>
+          <div id="art">
             예술
           </div>
-          <div>
+          <div id="literature">
             문학
           </div>
-          <div>
+          <div id="music">
             음악
           </div>
-          <div>
+          <div id=ㄴ\"studio_art">
             미술
           </div>
         </div>
